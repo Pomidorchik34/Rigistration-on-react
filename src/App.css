@@ -10,7 +10,14 @@ p {
   padding-top: 10px;
   padding-bottom: 20px;
 }
-
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 800px;
+  height: 400px;
+}
 body {
   display: flex;
   justify-content: center;
@@ -36,19 +43,28 @@ textarea {
   align-items: center;
 }
 
-.container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 800px;
-  height: 400px;
-}
 button {
+  text-decoration: none;
+  font-size: 16px;
+  font-family: sans-serif;
+  margin-top: 20px;
   background-color: rgb(46, 157, 255);
   color: white;
   border: 2px solid transparent;
   border-radius: 3px;
   font-weight: 500;
-  padding: 10px 328px;
+  padding: 10px 360px;
+}
+
+.err {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.err h1 {
+  font-size: 80px;
+}
+.err h2 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
